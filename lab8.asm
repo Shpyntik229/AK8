@@ -7,7 +7,7 @@ TOPROW EQU 08 ;Верхній рядок меню
 BOTROW EQU 12 ;Нижній рядок меню
 LEFCOL EQU 26 ;Лівий стовпчик меню
 ATTRIB DB ? ; Атрибути екрану
-ROW DB 00 ;Рядок екрану
+ROW DB 00 ;Рядок екрану 
 SHADOW DB 19 DUP(0DBH);
 MENU DB 0C9H, 17 DUP(0CDH), 0BBH
 	DB 0BAH, ' Print group     ',0BAH
